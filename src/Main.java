@@ -16,9 +16,21 @@ public class Main {
         TestData data = new TestData();
         Outbreak outbreak = new Outbreak();
 
-        outbreak.printVertical();
+//        outbreak.printVertical();
+//
+//        outbreak.countVerticalOutbreak();
 
-        outbreak.countVerticalOutbreak();
+
+        boolean a = true;
+        boolean b = false;
+        boolean c = true;
+
+//        boolean res = true * false;
+
+
+    }
+
+}
 
 
 //        String [][] chessBoard = new String[8][8];
@@ -51,6 +63,71 @@ public class Main {
 //            }
 //            System.out.println();
 //        }
-    }
 
-}
+
+
+
+//        for (int i = 0; i < res.length; i++) {
+//            for (int j = 0; j < res[i].length; j++) {
+//                System.out.print(res[i][j] + " | ");
+//            }
+//            System.out.println(" ");
+//        }
+
+//        int[][] first = Outbreak.verticalTrue;
+//        Outbreak second = Outbreak.verticalTrue;
+//        int[][] result = outbreak.multiply();
+//
+//        Outbreak result = first.multiply(second);
+//        result.print();
+
+
+
+
+
+
+
+//        String [][] stringArray = Arrays.stream(VerticalTrue).map(value -> (String.valueOf(value)).replace("true", "1").replace("false", "0").;
+
+
+        /*
+        public int countVerticalOutbreak() {
+
+            int verticalCountRow = 0;
+            int verticalCountColumn = 0;
+
+            for (int i = 0; i < verticalTrue.length; i++) {
+                for (int j = 0; j < verticalTrue[i].length; j++) {
+                    if (verticalTrue[i][j].equals("X")) verticalCountRow++;
+                    if (verticalTrue[j][i].equals("X")) verticalCountColumn++;
+                }
+
+                if (verticalCountRow >= 5) {
+                    System.out.println("rows: " + verticalCountRow);
+                    return 1;
+                }
+
+                if (verticalCountColumn >= 5) {
+                    System.out.println("columns: " + verticalCountColumn);
+                    return 1;
+                }
+                verticalCountRow = 0;
+                verticalCountColumn = 0;
+            }
+
+            System.out.println("no results");
+            return 0;
+        }
+
+         */
+
+
+
+
+
+
+//        Float[][] floatArray =
+//                map.entrySet()
+//                        .stream()
+//                        .map(key -> new Float[]{key.getKey().getPrice()})
+//                        .toArray(size -> new Float[size][1]);

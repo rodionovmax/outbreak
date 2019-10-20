@@ -1,63 +1,5 @@
-public class Room {
+public class OutbreakTwo {
 
-    private final boolean isInfected;
-
-    public Room(boolean infected) {
-        isInfected = infected;
-    }
-
-    static int[][] verticalTrue = new int[][]{
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 0, 1, 1, 0, 0, 0, 0},
-            {0, 1, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0}
-    };
-
-
-    static int[][] horizontalTrue = new int[][]{
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 1, 1, 1, 1, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0}
-    };
-
-    static int[][] noInfection2 = new int[][]{
-            {1, 0, 1, 0, 0, 0, 0, 0, 0},
-            {0, 1, 0, 1, 0, 0, 0, 0, 0},
-            {1, 0, 1, 0, 0, 0, 0, 0, 0},
-            {0, 1, 0, 1, 0, 1, 0, 0, 0},
-            {0, 1, 0, 0, 1, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 1, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 1, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0}
-    };
-
-    static int[][] noInfection = new int[][] {
-            {0, 1, 0, 1, 1, 1, 1, 1, 1 },
-            {1, 0, 1, 0, 1, 1, 1, 1, 1 },
-            {0, 1, 0, 1, 1, 1, 1, 1, 1 },
-            {1, 0, 1, 0, 1, 0, 1, 1, 1 },
-            {1, 0, 1, 1, 0, 1, 1, 1, 1 },
-            {1, 1, 1, 1, 1, 0, 1, 1, 1 },
-            {1, 1, 1, 1, 1, 1, 0, 1, 1 },
-            {1, 1, 1, 1, 1, 1, 1, 1, 1 },
-            {1, 1, 1, 1, 1, 1, 1, 1, 1 },
-            {1, 1, 1, 1, 1, 1, 1, 1, 1 }
-    };
 
     Room[][] roomVerticalTrue = new Room[][] {
             {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
@@ -71,7 +13,6 @@ public class Room {
             {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
             {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) }
     };
-
 
     Room[][] roomHorizontalTrue = new Room[][] {
             {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
@@ -99,7 +40,13 @@ public class Room {
             {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) }
     };
 
+    public static boolean isOutbreak(boolean[][] floor) {
 
+
+
+
+
+    }
 
 
 }

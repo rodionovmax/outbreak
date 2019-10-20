@@ -4,50 +4,13 @@ public class TestData {
 
     /* Test cases*/
 
-    /*
-    Room[][] verticalTrue = new Room[][] {
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(true), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) }
-    };
-
-    Room[][] horizontalTrue = new Room[][] {
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(true), new Room(true), new Room(true), new Room(true), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) }
-    };
-
-    Room[][] noInfection = new Room[][] {
-            {new Room(true), new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(true), new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(true), new Room(false), new Room(true), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(true), new Room(false), new Room(false), new Room(true), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(true), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(true), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) },
-            {new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false), new Room(false) }
-    };
 
 
-     */
 
-    String[][] verticalTrue = new String[][] {
+
+
+
+    String[][] verticalTrueString = new String[][] {
             {"o","o","o","o","o","o","o","o","o" },
             {"o","o","o","o","o","o","o","o","o" },
             {"o","o","o","o","o","o","o","o","o" },
@@ -72,6 +35,32 @@ public class TestData {
             {"o","o","o","o","o","o","o","o","o" },
             {"o","o","o","o","o","o","o","o","o" }
     };
+
+    String[][] verticalTrue3 = new String[][] {
+            {"o","o","o","o","o","o","o","o","o" },
+            {"o","X","o","o","o","o","o","o","o" },
+            {"o","X","o","o","o","o","o","o","o" },
+            {"o","X","o","X","X","X","X","X","o" },
+            {"o","X","o","o","o","o","o","o","o" },
+            {"o","X","o","o","o","o","o","o","o" },
+            {"o","X","o","o","o","o","o","o","o" },
+            {"o","X","o","o","o","o","o","o","o" },
+            {"o","o","o","o","o","o","o","o","o" },
+            {"o","o","o","o","o","o","o","o","o" }
+    };
+
+//    String[][] horizontalTrue = new String[][] {
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","X","X","X","X", new Room(true), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) },
+//            {"o","o","o","o","o", new Room(false), new Room(false), new Room(false), new Room(false) }
+//    };
 
 
 }
